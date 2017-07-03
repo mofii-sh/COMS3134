@@ -1,0 +1,45 @@
+COMS3134 - Lecture 1
+
+Mid-term: Monday of 4th week
+
+TA Office Hour: Evening of Tuesday, Thursday, and Friday
+
+Instructor Office Hour: After Lecture
+
+Textbook:
+	Data Structures and Algorithm Analysis in Java 3rd Edition
+
+Reading:
+	Chapter 1 and 2
+
+Data Structures:
+	Array, ArrayList
+	Array, ArrayList in sorted order
+
+	Binary Search:
+		O( log N )
+
+	Linked List
+
+	generic class
+		ArrayList<Integer> a = new ArrayList<>(); creating an arraylist of integers
+		In arraylist, 'generic' is built-in.
+		generic identifier
+		use wrapper class instead of primitive class
+
+	Proofs:
+		Induction
+		Contradiction
+		Counter-example
+
+	Recursion:
+		Fib(k) = Fib(k-1) + Fib(k-2) (k >= 2), Fib(0) = 1, Fib(1) = 1
+
+		Use induction proof: F[i] < (5/3)^i (i >= 1)
+			I. Show base cases: F[1] = 1 < 5/3
+			                    F[2] = 2 < 25/9
+			II. Assume for i true for up to k
+			    Such that
+			    F[k+1] < (5/3)^k + (5/3)^(k-1)
+			           = (3/5 + 9/25) * (5/3)^(k+1)
+			           < (5/3)^(k+1)
