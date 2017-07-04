@@ -5,7 +5,7 @@ public class BinarySearchGenerics{
 		int high = a.length - 1;
 		int mid;
 
-		while (low < while){
+		while (low < high){
 			mid = (low + high) / 2;
 			System.out.println(mid + " " + a[mid]);
 			if (a[mid].compareTo(x) > 0){
